@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wiki App</title>
+	<!-- Bootstrap CDN -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- Font-Awesome CDN-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+	<!-- Weather Icons CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+	<!-- CSS file - Order matters -->
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+	  <div class="heading">
+	    <h1 class= "display-4">Wikipedia<br />API Search</h1>
+	    <i class="fa fa-wikipedia-w"></i>
+	    <a href="https://en.wikipedia.org/wiki/Special:Random" target= "_blank">Random Article</a>
+	    <i class="fa fa-wikipedia-w"></i>
+	 </div>
+	  <div class="input-group">
+	     <span class="input-group-addon" id="searchButton"><i class="fa fa-search"></i></span>
+	    <input type="text" class="form-control" id="search"/>
+	  </div>
+	  
+	  <ul id="output" class="list-unstyled">
+	  
+	  </ul>
+	</div>
+	<!-- jQuery CDN -->
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<!-- JavaScript -->
+	<script src="main.js"></script>
+</body>
+</html>

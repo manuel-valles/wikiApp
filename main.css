@@ -1,0 +1,40 @@
+body{
+  font-family: 'Bubbler One', cursive, arial, sans-serif;
+  background: url("http://manuel-valles.com/gallery/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 110%;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h1{
+  margin-bottom: 50px;
+}
+
+.fa-wikipedia-w{
+  font-size: 25px;
+  padding: 15px;
+}
+
+.input-group-addon{
+  width: 40px;
+}
+
+#output{
+  margin:40px 10px 40px 40px;
+}
+a{
+  font-size: 150%;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+li p{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px 0 30px;
+}
